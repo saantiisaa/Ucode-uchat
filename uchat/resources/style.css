@@ -1,0 +1,614 @@
+.name_label {
+    background: #1C1C29;
+    /* border: 1px solid #636AE6;
+    border-radius: 2px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #B3C1D2;
+}
+
+.chat_header {
+    background: #1C1C29;
+    /* border: 1px solid #636AE5;
+    border-radius: 2px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #B3C1D2;
+}
+
+.chats_list {
+    background: #27273A;
+    color: #B3C1D2;
+
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.chats_list:hover {
+    background-color: #1e1e96;
+}
+
+#chat #chat_list > *:selected {
+    background: #5d6c6b;
+    transition: all 0.3s ease-in-out;
+}
+
+.messages_list {
+    background: #1C1C29;
+
+    border-top: 1px solid rgb(134, 132, 132);
+    border-bottom: 1px solid rgb(134, 132, 132);
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.messages_list:hover {
+    background-color: #17175c;
+}
+
+.messages_entry {
+    background: #27273A;
+    /* border: 1px solid #636AE6;
+    border-radius: 2px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #B3C1D2;
+}
+
+.edit_label {
+    background: #1C1C29;
+    /* border: 1px solid #636AE6;
+    border-radius: 2px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #B3C1D2;
+}
+
+.received_message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.newchat_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.enter_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.newchat_button:hover {
+    background-color: #ffffff;
+}
+
+.enter_button:hover {
+    background-color: #ffffff;
+}
+
+.head {
+    background: #1C1C29;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #B3C1D2;
+}
+
+.users_search {
+    background: #27273A;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #B3C1D2;
+}
+
+.users_list {
+    background: #27273A;
+    color: #B3C1D2;
+
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.users_list:hover {
+    background-color: #1e1e96;
+}
+
+.createchat_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.createchat_button:hover {
+    background-color: #ffffff;
+}
+
+.cancel_button {
+    
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.cancel_button:hover {
+    background-color: #ffffff;
+}
+
+/* login */
+
+.login {
+    background: #27273A;
+    border-radius: 10px;
+
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background: radial-gradient(circle at center, #242F71, #1C1C29);
+    border-radius: 20px;*/
+}
+
+.chat_label {
+    background: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+
+    color: #B4C2D3;
+}
+
+.name_login {
+    background: #D9D9D9;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.password_login {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.remember_me {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #B4C2D3;
+}
+
+.log_in {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.log_in:hover {
+    background-color: #ffffff;
+}
+
+.sign_up {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.sign_up:hover {
+    background-color: #ffffff;
+}
+
+.name_register {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.password_register {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.password_confirm {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.error_label {
+    color: #B4C2D3;
+}
+
+.register_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.register_button:hover {
+    background-color: #ffffff;
+}
+
+.go_back {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+    /* background: #D9D9D9;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000; */
+}
+
+.go_back:hover {
+    background-color: #ffffff;
+}
+
+
+/* Menu */
+
+.menu_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.menu_button:hover {
+    background-color: #ffffff;
+}
+
+.menu_window {
+    /* position: absolute;
+    width: 489px;
+    height: 486px; */
+
+    background: #27273A;
+    border-radius: 10px;
+}
+
+.menu_head_label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+
+    color: #B4C2D3;
+}
+
+.in_menu_name_label {
+    font-family: 'Jacques Francois Shadow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+
+    color: #B4C2D3;
+}
+
+.change_password_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.change_password_button:hover {
+    background-color: #ffffff;
+}
+
+.logout_button {
+    /* background: #6e0e0e;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #B4C2D3; */
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.logout_button:hover {
+    background-color: #ffffff;
+}
+
+.delete_account_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.delete_account_button:hover {
+    background-color: #ffffff;
+}
+
+.change_image_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.change_image_button:hover {
+    background-color: #ffffff;
+}
+
+.change_password_window {
+    background: #27273A;
+    border-radius: 10px;
+}
+
+.current_password_entry {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.new_password_entry {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.confirm_password_entry {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.save_change_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.cancel_change_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.save_change_button:hover {
+    background-color: #ffffff;
+}
+
+.cancel_change_button:hover {
+    background-color: #ffffff;
+}
+
+.change_image_window {
+    background: #27273A;
+    border-radius: 10px;
+}
+
+.choose_image_label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+
+    color: #B4C2D3;
+}
+
+.choose_file_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.choose_file_button:hover {
+    background-color: #ffffff;
+}
+
+.save_choose_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.save_choose_button:hover {
+    background-color: #ffffff;
+}
+
+.cancel_choose_button {
+    background: #D9D9D9;
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: #000000;
+}
+
+.cancel_choose_button:hover {
+    background-color: #ffffff;
+}
